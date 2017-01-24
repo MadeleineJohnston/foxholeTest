@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
 	glewExperimental = GL_TRUE;
 	GLenum err = glewInit();
 
-
+	// test
 	if (GLEW_OK != err) { // glewInit failed, something is seriously wrong
 		std::cout << "glewInit failed, aborting." << endl;
 		exit(1);
